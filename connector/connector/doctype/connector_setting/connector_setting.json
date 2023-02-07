@@ -1,0 +1,84 @@
+{
+ "actions": [],
+ "creation": "2020-12-03 13:27:37.931961",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "customer_group",
+  "territory",
+  "tax_account",
+  "delivery_account",
+  "delivery_day",
+  "submit_order",
+  "submit_invoice"
+ ],
+ "fields": [
+  {
+   "fieldname": "customer_group",
+   "fieldtype": "Link",
+   "label": "Customer Group",
+   "options": "Customer Group"
+  },
+  {
+   "fieldname": "territory",
+   "fieldtype": "Link",
+   "label": "Territory",
+   "options": "Territory"
+  },
+  {
+   "fieldname": "tax_account",
+   "fieldtype": "Link",
+   "label": "Tax Account",
+   "options": "Account"
+  },
+  {
+   "fieldname": "delivery_account",
+   "fieldtype": "Link",
+   "label": "Delivery Account",
+   "options": "Account"
+  },
+  {
+   "fieldname": "delivery_day",
+   "fieldtype": "Int",
+   "label": "Delivery Day"
+  },
+  {
+   "default": "0",
+   "description": "Checked If want to make sales order submit",
+   "fieldname": "submit_order",
+   "fieldtype": "Check",
+   "label": "Submit Order"
+  },
+  {
+   "default": "0",
+   "description": "Checked If want to make sales invoice submit",
+   "fieldname": "submit_invoice",
+   "fieldtype": "Check",
+   "label": "Submit Invoice"
+  }
+ ],
+ "issingle": 1,
+ "links": [],
+ "modified": "2021-07-31 10:52:48.471196",
+ "modified_by": "Administrator",
+ "module": "Connector",
+ "name": "Connector Setting",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

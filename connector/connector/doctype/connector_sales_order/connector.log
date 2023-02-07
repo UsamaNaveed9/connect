@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'options'
+(1264, "Out of range value for column 'total_qty' at row 1")
